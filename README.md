@@ -12,7 +12,7 @@ In the directory <b>Code</b> we have the following:
 In the directory <b>Data</b> we have the following:
 <ul>
   <li><b>regex_build_times.csv</b>: A dataset of the times taken to build various subgraphs. In this dataset, the length of time to gather and build a subgraph with naive methods with one utilizing semantic filtering. Details of the methods are discussed more elaborately in our publication.</li> 
-  <li><b>comparison.xlsx</b>: A collection of the cosine similarities, rank, and semantic walk scores. These values are calculated for three different embedding methodologies; deepwalk, node2vec, metapath2vec. We collected two sets of datapoints from biomedical experts we wished to compare, one postitive set where drug pairs are mechanistically releated and one negative where drugs share no relationship to each other.</li>
+  <li><b>results.xlsx</b>: A collection of the MRR and Hits@k values. These values are calculated for three different embedding methodologies; deepwalk, node2vec, metapath2vec in three different settings: the whole graph, non-semantic graph (-NS), and semantic graph (-SS).</li>
   <li><b>robokop-2d.emb</b>: Two dimensional node2vec embeddings run on the ROBOKOP subgraph. These embeddings were generated using the 
     <a href="http://snap.stanford.edu/">SNAP: Stanford Network Analysis Project</a>. </li>
  
