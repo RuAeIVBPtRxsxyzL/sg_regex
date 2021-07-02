@@ -1,3 +1,4 @@
+<meta name="robots" content="noindex">
 # Subgraph Regex
 
 We collect all code and data for the Node Embedding with Semantic Subgraphs project here. This work in created in association with our publication, <b>CompactWalks: Taming Knowledge-Graph Embeddings with Domain- and Task-Specific Pathways</b>. If you find this repository helpful towards the development of novel methods and systems, please cite our work. The layout of this repo is as follows:
